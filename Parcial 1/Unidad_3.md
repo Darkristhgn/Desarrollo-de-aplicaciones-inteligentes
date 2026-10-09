@@ -48,3 +48,20 @@
 		BFS y DFS son $O(b^d)$ en el peor caso.
 	9. Complejidad en espacio
 		BFS guarda toda la frontera, $O(b^d)$
+***
+**Trabajo de clase**
+**Búsqueda no informada**(ciega)
+	No tiene ninguna pista sobre que tan cerca está la meta. Solo explora el espacio de estados con un orden fijo
+	**Amplitud BFS**
+		- Primero todos los estados a una distancia dada.
+		- Encuentra la solución más corta(Con costos iguales)
+		- Usa mucha memoria
+		![[Pasted image 20261008171145.png]]
+		Por lo que entiendo este recorre todos los caminos posibles mientras tengan costos iguales
+	**Djikstra**
+		![[Pasted image 20261008171322.png]]
+		Por lo que veo en el ejemplo grafico djikstra lo hace de manera mas circular pero sigue siendo muy similar al BFS porque tambien se guia por costos iguales y recorre todos los caminos
+	**Profundidad**
+		Se va lo más lejos posible por un camino antes de retroceder
+		Usa poca memoria
+		No Garantiza la mejor solución y puede perderse en caminos infinitos
