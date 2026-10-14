@@ -65,3 +65,18 @@
 		Se va lo más lejos posible por un camino antes de retroceder
 		Usa poca memoria
 		No Garantiza la mejor solución y puede perderse en caminos infinitos
+
+### Actividad 3.2
+Búsqueda Heurística
+![[Pasted image 20261014144946.png|273]]
+Longitud:15
+Tiempo: 0.100 ms
+Operaciones: 113
+
+Búsqueda Ciega
+![[Pasted image 20261014145108.png|268]]
+Longitud: 15
+Tiempo: 1.300 ms
+Operaciones: 975
+
+La diferencia observable entre estos 2 como es obvio al comparar una búsqueda ciega con una que no lo es completamente se puede ver que la búsqueda ciega tiene su comportamiento característico y se extiende en todas las direcciones hasta dar con el punto esto mientras que la búsqueda heurística tiende a ir de manera más directa al punto por la manera en la decide dejar de buscar en direcciones que no la acercan al objetivo
