@@ -80,3 +80,17 @@ Tiempo: 1.300 ms
 Operaciones: 975
 
 La diferencia observable entre estos 2 como es obvio al comparar una búsqueda ciega con una que no lo es completamente se puede ver que la búsqueda ciega tiene su comportamiento característico y se extiende en todas las direcciones hasta dar con el punto esto mientras que la búsqueda heurística tiende a ir de manera más directa al punto por la manera en la decide dejar de buscar en direcciones que no la acercan al objetivo
+
+## Actividad 3.3
+**¿Qué relación tienen las gpus de las redes neuronales?**
+	Ambas funcionan de una manera similar realizando operaciones pequeñas al mismo tiempo , las redes neuronales se beneficiaron de las gpus, ya que estas tienen la capacidad de acelerar su funcionamiento por la velocidad de procesamiento y la capacidad de procesamiento por lo cual esto permitió su correcto funcionamiento
+**Diagrama y tabla comparativa**
+		![[RedNeuronal.png]]
+
+
+| Modelo            | Datos necesesarios | Velocidad  | Funcionamiento en <br>problemas complejos |
+| ----------------- | ------------------ | ---------- | ----------------------------------------- |
+| Redes neuronales  | Muchos             | Lenta      | Excelente                                 |
+| Arbol de desicion | Pocos              | Rapida     | Medio                                     |
+| Regresion lineal  | Pocos              | Muy rapida | Malo                                      |
+
